@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/estilo.css">
+    <title>Formulário 3</title>
+</head>
+<body>
+
+    <div>
+    <h2 id="titulo">Não é associado? Faça seu cadastro</h2>
+    <br>
+    </div>
+
+        
+<form>
+    <div class="campo">
+        <label for="nome">Nome</label>
+        <input rows="6" style="width: 26em" type="text" name="nome" id="nome" required><br/>
+    </div>
+
+    <div class="campo">
+        <label for="nome">Nome Completo</label>
+        <input rows="6" style="width: 26em" type="text" name="nome" id="nome" required><br/>
+    </div>
+
+    <div class="campo">
+        <label for="cpf">CPF</label>
+        <input rows="6" style="width: 26em" type="cpf" name="cpf" id="cpf" required><br/>
+    </div>
+
+    <div class="campo">
+        <label for="email">E-mail</label>
+        <input rows="6" style="width: 26em" type="email" name="email" id="email" required><br/>
+    </div>
+
+    <div class="campo">
+        <label for="website">Website</label>
+        <input rows="6" style="width: 26em" type="website" name="website" id="website" required><br/>
+    </div>
+
+    <div class="campo">
+        <label for="endereco">Endereço</label>
+        <input rows="6" style="width: 26em" type="endereco" name="endereco" id="endereco" required><br/>
+    </div>
+
+    <div class="campo">
+        <label for="bairro">Bairro</label> 
+        <input rows="6" style="width: 17em" type="bairro" name="bairro" id="bairro" required><br/>
+        <label for="cidade">Cidade</label>
+        <input rows="6" style="width: 17em" type="cidade" name="cidade" id="cidade" required><br/>
+    </div>
+
+    <div class="campo">
+        <label for="cep">Cep</label>
+        <input rows="6" style="width: 17em" type="cep" name="cep" id="cep" required><br/>
+        <label for="uf">UF</label>
+        <select id="uf" required>
+            <option selected disabled value="">Selecione</option>
+            <option>AC</option>
+            <option>AL</option>
+            <option>AP</option>
+            <option>AM</option>
+            <option>BA</option>
+            <option>CE</option>
+            <option>DF</option>
+            <option>ES</option>
+            <option>GO</option>
+            <option>MA</option>
+            <option>MT</option>
+            <option>MS</option>
+            <option>MG</option>
+            <option>PA</option>
+            <option>PB</option>
+            <option>PR</option>
+            <option>PE</option>
+            <option>PI</option>
+            <option>RJ</option>
+            <option>RN</option>
+            <option>RS</option>
+            <option>RO</option>
+            <option>RR</option>
+            <option>SC</option>
+            <option>SP</option>
+            <option>SE</option>
+            <option>TO</option>
+          </select>
+    </div>
+
+    <div class="campo">
+        <label for="telefone">Telefone</label>
+        <input rows="6" style="width: 17em" type="telefone" name="telefone" id="telefone" required><br/>
+        <label for="fax">Fax</label>
+        <input rows="6" style="width: 17em" type="fax" name="fax" id="fax" required><br/>
+    </div>
+
+    <div class="campo">
+        <label for="data">Data Nascimento</label>
+        <input rows="6" style="width: 17em" type="date" name="data" id="data" required><br/>
+        <label for="sexo">Sexo</label>
+        <input type="radio" name="devweb" value="m">M</label>
+        <input type="radio" name="devweb" value="f">F</label>
+    </div>
+
+    <div class="campo">
+        <label for="celular">Celular</label>
+        <input rows="6" style="width: 17em" type="celular" name="celular" id="celular" required><br/>
+        <label for="est.civil">Est.Civil</label>
+        <select id="est.civil" required>
+            <option selected disabled value="">Selecione</option>
+            <option>Solteiro</option>
+            <option>Casado</option>
+            <option>Divórciado</option>
+            <option>Viúvo</option>
+            </select>
+    </div>
+
+    <div class="campo">
+        <label for="login">Login</label>
+        <input rows="6" style="width: 17em" type="text" name="login" id="login" required><br/>
+        <label for="senha">Senha</label>
+        <input rows="6" style="width: 17em" type="password" name="senha" id="senha" required><br/>
+    </div>
+
+        <fieldset class="grupo">
+            <div id="check">
+                <label><strong class="campo">Deseja receber informações sobre os seguintes assuntos abaixo:</strong></label><br><br>
+                <input type="checkbox" id="tecnologia1" name="tecnologia1" value="Tecnologia">
+                <label for="tecnologia1">Tecnologia</label>
+                <input type="checkbox" id="tecnologia2" name="tecnologia2" value="Esportes">
+                <label for="tecnologia2">Esportes</label>
+                <input type="checkbox" id="tecnologia3" name="tecnologia3" value="Automóveis">
+                <label for="tecnologia3">Automóveis</label>
+                <input type="checkbox" id="tecnologia4" name="tecnologia4" value="Culinária">
+                <label for="tecnologia4">Culinária</label>
+                <input type="checkbox" id="tecnologia5" name="tecnologia5" value="Policial">
+                <label for="tecnologia5">Policial</label>
+                <input type="checkbox" id="tecnologia6" name="tecnologia6" value="Política">
+                <label for="tecnologia6">Política</label>
+                <input type="checkbox" id="tecnologia7" name="tecnologia7" value="Tempo">
+                <label for="tecnologia7">Tempo</label><br>
+                <br>
+                <input type="checkbox" id="tecnologia8" name="tecnologia8" value="Cultura">
+                <label for="tecnologia8">Cultura</label>
+                <input type="checkbox" id="tecnologia9" name="tecnologia9" value="Economia">
+                <label for="tecnologia9">Economia</label>
+                <input type="checkbox" id="tecnologia10" name="tecnologia10" value="Jogos">
+                <label for="tecnologia10">Jogos</label>
+                <input type="checkbox" id="tecnologia11" name="tecnologia11" value="Educação">
+                <label for="tecnologia11">Educação</label>
+                <input type="checkbox" id="tecnologia12" name="tecnologia12" value="Viagem">
+                <label for="tecnologia12">Viagem</label>
+                <input type="checkbox" id="tecnologia13" name="tecnologia13" value="Empregos">
+                <label for="tecnologia13">Empregos</label>
+                <input type="checkbox" id="tecnologia14" name="tecnologia14" value="Moda e Estilo">
+                <label for="tecnologia14">Moda e Estilo</label><br>
+                <br>
+                <input type="checkbox" id="tecnologia15" name="tecnologia15" value="Li as regras de cadastro e autorizo a criação do usuário">
+                <label for="tecnologia15">Li as regras de cadastro e autorizo a criação do usuário</label>
+                <br><br>
+            </div>
+        </fieldset>
+
+        <button class="botao" type="submit" onsubmit="">Confirmar</button>
+        <button class="botao" type="reset" onsubmit="">Retornar</button>   
+       
+</form>
+</body>
+</html>
